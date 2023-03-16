@@ -20,4 +20,5 @@ extension Color {
 
     static var appItemBackgroundGray = Color(0xFDFCFC)
     static var appTextGray = Color(0xC4C4C4)
+    static var appTextDark = Color(0x2C2C2C)
 }

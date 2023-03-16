@@ -11,6 +11,7 @@
 		123D250E29C2D0C200F3A17F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123D250D29C2D0C200F3A17F /* ContentView.swift */; };
 		123D251029C2D0C300F3A17F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 123D250F29C2D0C300F3A17F /* Assets.xcassets */; };
 		123D251329C2D0C300F3A17F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 123D251229C2D0C300F3A17F /* Preview Assets.xcassets */; };
+		123D251B29C2D2E000F3A17F /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123D251A29C2D2E000F3A17F /* Color+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		123D250D29C2D0C200F3A17F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		123D250F29C2D0C300F3A17F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		123D251229C2D0C300F3A17F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		123D251A29C2D2E000F3A17F /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		123D250A29C2D0C200F3A17F /* weather */ = {
 			isa = PBXGroup;
 			children = (
+				123D251929C2D2C100F3A17F /* Extensions */,
 				123D250B29C2D0C200F3A17F /* weatherApp.swift */,
 				123D250D29C2D0C200F3A17F /* ContentView.swift */,
 				123D250F29C2D0C300F3A17F /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				123D251229C2D0C300F3A17F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		123D251929C2D2C100F3A17F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				123D251A29C2D2E000F3A17F /* Color+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				123D250E29C2D0C200F3A17F /* ContentView.swift in Sources */,
 				123D250C29C2D0C200F3A17F /* weatherApp.swift in Sources */,
+				123D251B29C2D2E000F3A17F /* Color+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

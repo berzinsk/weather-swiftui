@@ -8,14 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var searchText = ""
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            HStack {
+                TextField("", text: $searchText, prompt: Text("Search Location").foregroundColor(Color.appTextGray))
+                Image(systemName: "magnifyingglass")
+                    .foregroundColor(Color.appTextGray)
+            }
+            .padding(.horizontal, 16)
+            .padding(.vertical, 12)
+            .background(Color.appItemBackgroundGray)
+            .cornerRadius(16)
+
+            Spacer()
         }
         .padding()
+        .background(.white)
     }
 }
 

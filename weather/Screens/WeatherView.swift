@@ -21,6 +21,7 @@ struct WeatherView: View {
             .padding(.top, 16)
             Image("icon_cloudy")
                 .padding(.top, 32)
+            LocationNameView(isLocationEnabled: true)
             Spacer()
         }
         .padding()

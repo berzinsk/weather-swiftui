@@ -13,7 +13,14 @@ struct WeatherView: View {
     var body: some View {
         VStack {
             SearchBarView(searchText: $searchText)
-
+            HStack(spacing: 12) {
+                PageIndicatorView(isActive: false)
+                PageIndicatorView(isActive: true)
+                PageIndicatorView(isActive: false)
+            }
+            .padding(.top, 16)
+            Image("icon_cloudy")
+                .padding(.top, 32)
             Spacer()
         }
         .padding()

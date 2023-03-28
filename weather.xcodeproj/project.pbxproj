@@ -37,6 +37,7 @@
 		1296733B29CAC21800218F50 /* WeatherIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1296733A29CAC21800218F50 /* WeatherIconView.swift */; };
 		1296733D29CAC39E00218F50 /* WeatherDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1296733C29CAC39E00218F50 /* WeatherDataView.swift */; };
 		1296733F29CAC52700218F50 /* WeatherDataItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1296733E29CAC52700218F50 /* WeatherDataItemView.swift */; };
+		129E2E3029CC12C900287372 /* SunsetSunriseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129E2E2F29CC12C900287372 /* SunsetSunriseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		1296733A29CAC21800218F50 /* WeatherIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherIconView.swift; sourceTree = "<group>"; };
 		1296733C29CAC39E00218F50 /* WeatherDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataView.swift; sourceTree = "<group>"; };
 		1296733E29CAC52700218F50 /* WeatherDataItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataItemView.swift; sourceTree = "<group>"; };
+		129E2E2F29CC12C900287372 /* SunsetSunriseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunsetSunriseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 				1296733A29CAC21800218F50 /* WeatherIconView.swift */,
 				1296733C29CAC39E00218F50 /* WeatherDataView.swift */,
 				1296733E29CAC52700218F50 /* WeatherDataItemView.swift */,
+				129E2E2F29CC12C900287372 /* SunsetSunriseView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				1296733B29CAC21800218F50 /* WeatherIconView.swift in Sources */,
 				1296733929CAC1CE00218F50 /* DegreesView.swift in Sources */,
 				123D251B29C2D2E000F3A17F /* Color+Ext.swift in Sources */,
+				129E2E3029CC12C900287372 /* SunsetSunriseView.swift in Sources */,
 				1296733529CABF6800218F50 /* PageIndicatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

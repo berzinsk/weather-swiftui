@@ -26,6 +26,7 @@ struct WeatherView: View {
             DegreesView(degrees: 31)
                 .padding(.top, 16)
             WeatherDataView()
+            SunsetSunriseView()
             Spacer()
         }
         .padding()
